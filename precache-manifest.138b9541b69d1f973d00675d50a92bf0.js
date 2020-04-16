@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46602463eb65466a2eca1d0fff632ace",
+    "revision": "cd6cdf7d7917d39de17e002f6303e0d7",
     "url": "/mkmetalarchive/index.html"
   },
   {
-    "revision": "db27be62233de97d84bc",
+    "revision": "7ad6aabedf8a27f532ff",
     "url": "/mkmetalarchive/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mkmetalarchive/static/js/2.4820f3e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db27be62233de97d84bc",
-    "url": "/mkmetalarchive/static/js/main.194476ee.chunk.js"
+    "revision": "7ad6aabedf8a27f532ff",
+    "url": "/mkmetalarchive/static/js/main.dff093d2.chunk.js"
   },
   {
     "revision": "570315bb429b0e299a70",
