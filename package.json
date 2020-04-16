@@ -1,6 +1,7 @@
 {
   "name": "mkmetalarchive",
   "version": "0.1.0",
+  "homepage":"https://dkotoski.github.io/mkmetalarchive",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.10",
@@ -32,7 +33,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

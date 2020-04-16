@@ -7,15 +7,18 @@ import { ROUTES } from './lib/consts';
 import { Route } from 'react-router';
 import AlbumPage from './pages/album-page';
 import BandPageContainer from './pages/band-page';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Box>
-      <Typography align="center" variant="h2">MK Metal Archive</Typography>
-      <Route exact path={ROUTES.BAND_LIST} component={MainPageContainer} />
-      <Route exact path={ROUTES.BAND_PAGE} component={BandPageContainer} />
-      <Route exact path={ROUTES.ALBUM_PAGE} component={AlbumPage} />
-    </Box>
+    <HashRouter>
+      <Box>
+        <Typography align="center" variant="h2">MK Metal Archive</Typography>
+        <Route exact path={ROUTES.BAND_LIST} component={MainPageContainer} />
+        <Route exact path={ROUTES.BAND_PAGE} component={BandPageContainer} />
+        <Route exact path={ROUTES.ALBUM_PAGE} component={AlbumPage} />
+      </Box>
+    </HashRouter>
   );
 }
 

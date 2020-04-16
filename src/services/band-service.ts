@@ -2,7 +2,12 @@ import axios, { AxiosResponse } from 'axios';
 
 const resolveUrl = (url: string) => {
     // if dev use next
-    return "/data/" + url;
+    if(process.env.NODE_ENV == "development"){
+
+        return "/data/" + url;
+    }else{
+        return "/mkmetalarchive/data/" + url;
+    }
 }
 
 const getAllBands = async () => {
