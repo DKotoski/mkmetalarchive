@@ -1,0 +1,69 @@
+{
+    "id": "dfl-bam",
+    "name": "By All Means",
+    "describtion": "",
+    "length": 2535,
+    "year": 1993,
+    "songs": [
+        {
+            "name": "Intro",
+            "lenght": 81,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/01 Intro.mp3"
+        },
+        {
+            "name": "Inner Sin",
+            "lenght": 190,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/02 Inner Sin.mp3"
+        },
+        {
+            "name": "No Faith",
+            "lenght": 118,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/03 No Faith.mp3"
+        },
+        {
+            "name": "Forever Gone",
+            "lenght": 249,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/04 Forever Gone.mp3"
+        },
+        {
+            "name": "...endless...",
+            "lenght": 197,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/05 ...endless.mp3"
+        },
+        {
+            "name": "By All Means",
+            "lenght": 153,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/06 By All Means.mp3"
+        },
+        {
+            "name": "P.E.E.L.",
+            "lenght": 112,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/07 P.E.E.L.mp3"
+        },
+        {
+            "name": "Overcast Days",
+            "lenght": 187,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/08 Overcast Days.mp3"
+        },
+        {
+            "name": "Twisted Destiny",
+            "lenght": 624,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/09 Twisted Destiny.mp3"
+        },
+        {
+            "name": "It's All Been Said",
+            "lenght": 624,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Dedicated For Life/2005 - By All Means/10 It_s All Been Said.mp3"
+        }
+    ]
+}

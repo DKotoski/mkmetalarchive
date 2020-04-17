@@ -8,7 +8,7 @@ import { TableHeader, TableGrid } from '../components/grid';
 import { generatePath } from 'react-router';
 import {Link as RouterLink} from 'react-router-dom';
 import { ROUTES } from '../lib/consts';
-
+import moment from 'moment';
 
 export interface BandPageProps {
     match: {
@@ -49,7 +49,7 @@ const BandPage = (props: BandPageProps) => {
         return (<>
             <TableCell><Link component={RouterLink} to={url}>{row.name}</Link></TableCell>
             <TableCell>{row.year}</TableCell>
-            <TableCell>{row.length}</TableCell>
+            <TableCell>{moment.utc(row.length * 1000).format('mm:ss')}</TableCell>
         </>);
     }
 

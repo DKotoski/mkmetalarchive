@@ -23,28 +23,10 @@ const _Player = (props: PlayerProps) => {
             {props.playlist.length != 0 ?
                 <Box>
                     <Typography>{props.currentPlay ? props.currentPlay.name : ""}</Typography>
-                    <Box>
-                        <Grid container >
-                            <Grid item xs={1}>
-                                {props.isPlaying ? <Button onClick={() => { props.setIsPlaying(false) }}><PauseCircleOutlineIcon /></Button> : <Button onClick={() => { props.setIsPlaying(true) }}><PlayCircleOutlineIcon /></Button>}
-                            </Grid>
-                            <Grid item>
-                                {
-                                    props.isPlaying ?
-
-                                        <audio autoPlay={true}>
-                                            <source src={props.currentPlay!.url} type="audio/mpeg" />
-                                        </audio>
-                                        : null
-                                }
-                            </Grid>
-                        </Grid>
-                    </Box>
                     <AudioPlayer
                         autoPlay
                         src={props.currentPlay ? props.currentPlay.url : ""}
                         onPlay={e => console.log("onPlay")}
-                    // other props here
                     />
                 </Box> : null
             }
