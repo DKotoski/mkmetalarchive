@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, LinearProgress, Typography, Grid, Button, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, TableCell, TableRow } from '@material-ui/core';
+import { Box, LinearProgress, Typography, Grid, Button, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, TableCell, TableRow, Paper } from '@material-ui/core';
 import { AppDispatch } from '../stores/app-thunk';
 import ApplicationState from '../stores/application-state';
 import { connect } from 'react-redux';
@@ -36,7 +36,7 @@ const _Player = (props: PlayerProps) => {
     return (
         <>
             {props.playlist.length != 0 ?
-                <Box style={{ position: 'fixed', bottom: 0, left: 0, width: "100%", backgroundColor: "white", maxHeight: "100%", borderTop: "1px black" }}>
+                <Paper style={{ position: 'fixed', bottom: 0, left: 0, width: "100%",  maxHeight: "100%", borderTop: "1px black" }}>
                     <Typography>{props.currentPlay ? props.currentPlay.name : ""}</Typography>
                     <ExpansionPanel>
                         <ExpansionPanelSummary
@@ -60,7 +60,7 @@ const _Player = (props: PlayerProps) => {
                             </Box>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
-                </Box> : null
+                </Paper> : null
             }
         </>
     )
