@@ -1,0 +1,14 @@
+{
+    "id": "dfl",
+    "name": "Dedicated For Life",
+    "location": "Skopje",
+    "genre": "metalcore/melodeth",
+    "bio": "a bio",
+    "status": "status",
+    "albums": [
+        {
+            "id": "dfl-bam",
+            "linkToData": "bands/Dedicated For Life/2005 - By All Means/data.json"
+        }
+    ]
+}
