@@ -1,8 +1,6 @@
 import React from 'react';
 import { TableHeader, TableGrid } from '../components/grid';
-import { generatePath } from 'react-router';
-import { ROUTES } from '../lib/consts';
-import { TableRow, TableCell, Link, Box, Typography, Button } from '@material-ui/core';
+import { TableCell, Box, Typography, Button } from '@material-ui/core';
 import { AppDispatch } from '../stores/app-thunk';
 import { getAlbum } from '../stores/album-page-store';
 import ApplicationState from '../stores/application-state';
@@ -10,6 +8,7 @@ import { connect } from 'react-redux';
 import Player from '../components/player';
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import { onPlay } from '../stores/player-store';
+import moment from 'moment';
 
 export interface AlbumPageProps {
     match: {
@@ -45,7 +44,7 @@ const AlbumPage = (props: AlbumPageProps) => {
 
         return (<>
             <TableCell>{row.name}</TableCell>
-            <TableCell>{row.lenght}</TableCell>
+            <TableCell>{moment.utc(row.lenght * 1000).format('mm:ss')}</TableCell>
             <TableCell><Button onClick={() => { props.onSongPlay({ name: row.name, url: row.playUrl }) }} ><PlayCircleOutlineIcon /></Button></TableCell>
         </>);
     }
