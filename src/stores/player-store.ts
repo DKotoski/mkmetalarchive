@@ -5,13 +5,14 @@ import * as BandService from '../services/band-service';
 
 export interface PlayerStore {
     playlist: Models.PlayerEntry[];
-    currentPlaying?: Models.PlayerEntry;
+    currentPlayingIndex: number;
     isPlaying: boolean;
 }
 
 export const initialState: PlayerStore = {
     playlist: [],
-    isPlaying: false
+    isPlaying: false,
+    currentPlayingIndex: 0
 };
 
 export const slice = createSlice({
@@ -21,16 +22,16 @@ export const slice = createSlice({
         setPlaylist: (state: PlayerStore, action: PayloadAction<Models.PlayerEntry[]>) => {
             state.playlist = action.payload;
         },
-        setCurrentPlaying: (state: PlayerStore, action: PayloadAction<Models.PlayerEntry>)=>{
-            state.currentPlaying = action.payload;
-        },
         setIsPlaying: (state: PlayerStore, action: PayloadAction<boolean>)=>{
             state.isPlaying = action.payload;
+        },
+        setCurrentPlayingIndex: (state: PlayerStore, action: PayloadAction<number>)=>{
+            state.currentPlayingIndex = action.payload;
         }
     }
 });
 
-export const { setPlaylist, setCurrentPlaying, setIsPlaying } = slice.actions;
+export const { setPlaylist, setIsPlaying, setCurrentPlayingIndex} = slice.actions;
 
 // Thunk action;
 
@@ -38,12 +39,26 @@ export const addToPlaylist = (entry: Models.PlayerEntry): AppThunk => async (dis
     let allEntries = [...store().player.playlist];
     allEntries.push(entry);
     dispatch(setPlaylist(allEntries));
-    if(allEntries.length == 1){
-        dispatch(setCurrentPlaying(entry));
+}
+
+export const onInAlbumPlay= (songs: Models.Song[], toPlay: Models.Song): AppThunk => async(dispatch, store) =>{
+    var songIndex = songs.indexOf(toPlay);
+    var playlist = songs.slice(songIndex);
+    dispatch(setPlaylist(playlist.map(x=> {return {name: x.name, url: x.playUrl}})));
+    dispatch(setCurrentPlayingIndex(0));
+};
+
+export const onPlayNext = (): AppThunk => async(dispatch, store) => {
+    var newIndex = store().player.currentPlayingIndex +1;
+    if(store().player.playlist.length > newIndex){
+        console.log(newIndex);
+        dispatch(setCurrentPlayingIndex(newIndex));
     }
 }
 
-export const onPlay = (entry: Models.PlayerEntry): AppThunk => async(dispatch, store) => {
-    dispatch(setPlaylist([entry]));
-    dispatch(setCurrentPlaying(entry));
+export const onPlayPrevious = (): AppThunk => async(dispatch, store) => {
+    var newIndex = store().player.currentPlayingIndex - 1;
+    if(newIndex >= 0){
+        dispatch(setCurrentPlayingIndex(newIndex));
+    }
 }

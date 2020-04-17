@@ -16,7 +16,10 @@ export interface PlayerProps {
     isPlaying: boolean;
     // setAutoplay: (val: boolean) => void;
     setIsPlaying: (val: boolean) => void;
+    onNext: () => void;
+    onPrevious: () => void;
 }
+
 const _Player = (props: PlayerProps) => {
     return (
         <>
@@ -26,6 +29,10 @@ const _Player = (props: PlayerProps) => {
                     <AudioPlayer
                         autoPlay
                         src={props.currentPlay ? props.currentPlay.url : ""}
+                        showSkipControls={props.playlist.length > 1}
+                        onClickNext={props.onNext}
+                        onClickPrevious={props.onPrevious}
+                        onEnded={props.onNext}
                         onPlay={e => console.log("onPlay")}
                     />
                 </Box> : null
@@ -41,12 +48,31 @@ const _Player = (props: PlayerProps) => {
 const mapDispatchToProps = (dispatch: AppDispatch) => ({
     setIsPlaying: (val: boolean) => {
         dispatch(PlayerStore.setIsPlaying(val))
+    },
+    onNext: () => {
+        dispatch(PlayerStore.onPlayNext());
+    },
+    onPrevious: () => {
+        dispatch(PlayerStore.onPlayPrevious());
     }
 });
 
 const mapStateToProps = (state: ApplicationState) => {
+    const getCurrentPlay = () =>{
+        if(state.player.playlist.length == 0){
+            return undefined;
+        }
+        if(state.player.playlist.length == 1){
+            return state.player.playlist[0];
+        }
+        return state.player.playlist[state.player.currentPlayingIndex];
+    }
+
+    var curPlay = getCurrentPlay();
+    console.log("CurentPlay: ", curPlay);
+
     return {
-        currentPlay: state.player.currentPlaying,
+        currentPlay: getCurrentPlay(),
         playlist: state.player.playlist,
         isPlaying: state.player.isPlaying
     };
