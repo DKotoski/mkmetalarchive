@@ -8,6 +8,7 @@ import { Route } from 'react-router';
 import AlbumPage from './pages/album-page';
 import BandPageContainer from './pages/band-page';
 import { HashRouter } from 'react-router-dom';
+import Player from './components/player';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path={ROUTES.BAND_PAGE} component={BandPageContainer} />
         <Route exact path={ROUTES.ALBUM_PAGE} component={AlbumPage} />
       </Box>
+      <Player />
     </HashRouter>
   );
 }

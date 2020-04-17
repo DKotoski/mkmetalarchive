@@ -46,11 +46,11 @@ const BandPage = (props: BandPageProps) => {
         });
         console.log(url);
         
-        return (<>
+        return (<TableRow key={row.id}>
             <TableCell><Link component={RouterLink} to={url}>{row.name}</Link></TableCell>
             <TableCell>{row.year}</TableCell>
             <TableCell>{moment.utc(row.length * 1000).format('mm:ss')}</TableCell>
-        </>);
+        </TableRow>);
     }
 
     return (

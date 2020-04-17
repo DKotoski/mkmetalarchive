@@ -14,18 +14,19 @@ export interface TableHeader {
 const TableGrid = function <T>(props: TableProps<T>) {
     return (<TableContainer>
         <Table size="medium">
-            <TableHead>
-                <TableRow>
-                    {
-                        props.headers.map(x => <TableCell key={x.title}>{x.title}</TableCell>)
-                    }
-                </TableRow>
-            </TableHead>
+            {props.headers.length ?
+                <TableHead>
+                    <TableRow>
+                        {
+                            props.headers.map(x => <TableCell key={x.title}>{x.title}</TableCell>)
+                        }
+                    </TableRow>
+                </TableHead>
+                : null
+            }
             <TableBody>
                 {
-                    
-                    props.data.map((x,i) => <TableRow key={i}>{props.rowRenderer(x)}</TableRow>)
-                    
+                    props.data.map((x, i) => props.rowRenderer(x))
                 }
             </TableBody>
         </Table>

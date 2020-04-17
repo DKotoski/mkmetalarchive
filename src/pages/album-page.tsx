@@ -1,13 +1,13 @@
 import React from 'react';
 import { TableHeader, TableGrid } from '../components/grid';
-import { TableCell, Box, Typography, Button } from '@material-ui/core';
+import { TableCell, Box, Typography, Button, TableRow } from '@material-ui/core';
 import { AppDispatch } from '../stores/app-thunk';
 import { getAlbum } from '../stores/album-page-store';
 import ApplicationState from '../stores/application-state';
 import { connect } from 'react-redux';
 import Player from '../components/player';
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
-import { onPlay, onInAlbumPlay } from '../stores/player-store';
+import { onInAlbumPlay } from '../stores/player-store';
 import moment from 'moment';
 
 export interface AlbumPageProps {
@@ -41,12 +41,11 @@ const AlbumPage = (props: AlbumPageProps) => {
     ];
 
     const rowRenderer: (row: Models.Song) => JSX.Element = (row: Models.Song) => {
-
-        return (<>
+        return (<TableRow key={row.id}>
             <TableCell>{row.name}</TableCell>
             <TableCell>{moment.utc(row.lenght * 1000).format('mm:ss')}</TableCell>
             <TableCell><Button onClick={() => { props.onSongPlay(props.album!.songs, row) }} ><PlayCircleOutlineIcon /></Button></TableCell>
-        </>);
+        </TableRow>);
     }
 
     if (props.album) {
@@ -58,7 +57,6 @@ const AlbumPage = (props: AlbumPageProps) => {
                 props.album ?
                     <Box>
                         <Typography>{props.album!.name}</Typography>
-                        <Player />
                         <TableGrid<Models.Song> headers={titles} rowRenderer={rowRenderer} data={props.album.songs} />
                     </Box>
                     : null

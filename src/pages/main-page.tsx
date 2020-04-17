@@ -36,12 +36,12 @@ const MainPage = (props: MainPageProps) => {
         });
         console.log(url);
         
-        return (<>
+        return (<TableRow key={row.id}>
             <TableCell><Link component={RouterLink} to={url}>{row.name}</Link></TableCell>
             <TableCell>{row.genre}</TableCell>
             <TableCell>{row.location}</TableCell>
             <TableCell>{row.status}</TableCell>
-        </>);
+        </TableRow>);
     }
 
     React.useEffect(() => {
