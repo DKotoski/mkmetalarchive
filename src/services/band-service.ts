@@ -3,14 +3,15 @@ import axios, { AxiosResponse } from 'axios';
 const resolveUrl = (url: string) => {
     // if dev use next
     if(process.env.NODE_ENV == "development"){
-
-        return "/data/" + url;
+        console.log(process.env.NODE_ENV);
+        return "/mkmetalarchive/data/" + url;
     }else{
         return "/mkmetalarchive/data/" + url;
     }
 }
 
 const getAllBands = async () => {
+    console.log(resolveUrl("data.json"));
     var bandLinks = (await axios.get<Models.DataLink[]>(resolveUrl("data.json"))).data;
     return getMultipleFromLinkList<Models.Band>(bandLinks);
 }

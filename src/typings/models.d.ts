@@ -32,4 +32,9 @@ declare module Models {
     export interface LocalizedString {
         [lang: string]: string;
     }
+
+    export interface PlayerEntry{
+        name: string;
+        url: string;
+    }
 }

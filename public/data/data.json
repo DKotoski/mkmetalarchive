@@ -2,5 +2,9 @@
     {
         "id": "test-band",
         "linkToData": "bands/test/data.json"
+    },
+    {
+        "id": "dfl",
+        "linkToData": "bands/Dedicated for Life/data.json"
     }
 ]

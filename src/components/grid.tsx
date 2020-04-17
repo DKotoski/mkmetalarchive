@@ -24,7 +24,7 @@ const TableGrid = function <T>(props: TableProps<T>) {
             <TableBody>
                 {
                     
-                    props.data.map(x => props.rowRenderer(x))
+                    props.data.map((x,i) => <TableRow key={i}>{props.rowRenderer(x)}</TableRow>)
                     
                 }
             </TableBody>
