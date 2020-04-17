@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb00a81a6aa1cb801a2c6c264413736d",
+    "revision": "87317efb4e4105af36b8bba1a1620856",
     "url": "/mkmetalarchive/index.html"
   },
   {
-    "revision": "48b12d2b234dd7b14c1a",
+    "revision": "5096c42d48df1bf235e6",
     "url": "/mkmetalarchive/static/css/2.440ac8e8.chunk.css"
   },
   {
-    "revision": "7e90849139278418fdfa",
+    "revision": "cae5b9b3d638fcddfb09",
     "url": "/mkmetalarchive/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "48b12d2b234dd7b14c1a",
-    "url": "/mkmetalarchive/static/js/2.de08a0ab.chunk.js"
+    "revision": "5096c42d48df1bf235e6",
+    "url": "/mkmetalarchive/static/js/2.e23b8d72.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/mkmetalarchive/static/js/2.de08a0ab.chunk.js.LICENSE.txt"
+    "url": "/mkmetalarchive/static/js/2.e23b8d72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e90849139278418fdfa",
-    "url": "/mkmetalarchive/static/js/main.6794c944.chunk.js"
+    "revision": "cae5b9b3d638fcddfb09",
+    "url": "/mkmetalarchive/static/js/main.f52fdd53.chunk.js"
   },
   {
     "revision": "570315bb429b0e299a70",
