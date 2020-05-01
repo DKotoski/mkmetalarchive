@@ -1,14 +1,10 @@
 import React from 'react';
-import { TableHeader, TableGrid } from '../components/grid';
-import { TableCell, Box, Typography, Button, TableRow } from '@material-ui/core';
 import { AppDispatch } from '../stores/app-thunk';
 import { getAlbum } from '../stores/album-page-store';
 import ApplicationState from '../stores/application-state';
 import { connect } from 'react-redux';
-import Player from '../components/player';
-import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import { onInAlbumPlay } from '../stores/player-store';
-import moment from 'moment';
+import AlbumCard from '../components/album-card';
 
 export interface AlbumPageProps {
     match: {
@@ -21,6 +17,8 @@ export interface AlbumPageProps {
     album?: Models.Album;
     onSongPlay: (songs: Models.Song[], songToPlay: Models.Song) => void;
     init: (bandKey: string, albumKey: string) => void;
+    onAlbumPlay: (songs: Models.Song[]) => void;
+
 }
 
 const AlbumPage = (props: AlbumPageProps) => {
@@ -28,39 +26,22 @@ const AlbumPage = (props: AlbumPageProps) => {
         props.init(props.match.params.bandName, props.match.params.albumName);
     }, []);
 
-    const titles: TableHeader[] = [
-        {
-            title: "name"
-        },
-        {
-            title: "length"
-        },
-        {
-            title: ""
-        }
-    ];
-
-    const rowRenderer: (row: Models.Song) => JSX.Element = (row: Models.Song) => {
-        return (<TableRow key={row.id}>
-            <TableCell>{row.name}</TableCell>
-            <TableCell>{moment.utc(row.lenght * 1000).format('mm:ss')}</TableCell>
-            <TableCell><Button onClick={() => { props.onSongPlay(props.album!.songs, row) }} ><PlayCircleOutlineIcon /></Button></TableCell>
-        </TableRow>);
-    }
-
-    if (props.album) {
-        console.log("props", props.album);
-    }
     return (
-        <>
-            {
-                props.album ?
-                    <Box>
-                        <Typography>{props.album!.name}</Typography>
-                        <TableGrid<Models.Song> headers={titles} rowRenderer={rowRenderer} data={props.album.songs} />
-                    </Box>
-                    : null
-            }
+        <>{
+            props.album ?
+                <>
+                    <AlbumCard
+                        bandId={props.match.params.bandName}
+                        albumId={props.match.params.albumName}
+                        name={props.album.name}
+                        year={props.album.year}
+                        length={props.album.length}
+                        cover={props.album.cover}
+                        songs={props.album.songs}
+                        onAlbumPlay={props.onAlbumPlay}
+                        onSongPlay={props.onSongPlay} />
+                </> : null
+        }
         </>
     );
 }
@@ -70,8 +51,11 @@ const mapDispatchToProps = (dispatch: AppDispatch) => ({
     init: (bandKey: string, albumKey: string) => {
         dispatch(getAlbum(bandKey, albumKey));
     },
-    onSongPlay: (songs: Models.Song[], songToPlay: Models.Song) =>{
+    onSongPlay: (songs: Models.Song[], songToPlay: Models.Song) => {
         dispatch(onInAlbumPlay(songs, songToPlay));
+    },
+    onAlbumPlay: (songs: Models.Song[]) => {
+        dispatch(onInAlbumPlay(songs, songs[0]));
     }
 });
 

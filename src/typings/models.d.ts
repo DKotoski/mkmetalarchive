@@ -16,6 +16,7 @@ declare module Models {
 
     export interface Album extends DataLink {
         name: string;
+        cover: string;
         describtion: string | LocalizedString;
         length: number;
         year: number;

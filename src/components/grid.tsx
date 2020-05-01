@@ -13,7 +13,7 @@ export interface TableHeader {
 
 const TableGrid = function <T>(props: TableProps<T>) {
     return (<TableContainer>
-        <Table size="medium">
+        <Table size="small">
             {props.headers.length ?
                 <TableHead>
                     <TableRow>
