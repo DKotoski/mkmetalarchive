@@ -1,0 +1,14 @@
+{
+    "id": "ap",
+    "name": "Apotheosis",
+    "location": "Skopje",
+    "genre": "power",
+    "bio": "a bio",
+    "status": "status",
+    "albums": [
+        {
+            "id": "ap-sas",
+            "linkToData": "bands/Apotheosis/2015 - Shadow And Sound/data.json"
+        }
+    ]
+}
