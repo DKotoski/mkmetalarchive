@@ -25,5 +25,6 @@ public/data/bands/**
 !public/data/**/
 !public/data/bands/Dedicated**
 !public/data/bands/Against**
+!public/data/bands/Ambroz**
 !public/data/**/*.json
 

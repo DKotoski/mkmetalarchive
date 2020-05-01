@@ -1,0 +1,14 @@
+{
+    "id": "am",
+    "name": "Ambroz",
+    "location": "Skopje",
+    "genre": "black metal",
+    "bio": "a bio",
+    "status": "status",
+    "albums": [
+        {
+            "id": "am-iev",
+            "linkToData": "bands/Ambroz/2015 - Into the Endless Void/data.json"
+        }
+    ]
+}
