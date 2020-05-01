@@ -24,5 +24,6 @@ yarn-error.log*
 public/data/bands/**
 !public/data/**/
 !public/data/bands/Dedicated**
+!public/data/bands/Against**
 !public/data/**/*.json
 

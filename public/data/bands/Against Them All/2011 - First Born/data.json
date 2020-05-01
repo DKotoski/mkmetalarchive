@@ -1,0 +1,69 @@
+{
+    "id": "ata-fb",
+    "name": "By All Means",
+    "describtion": "",
+    "length": 2104,
+    "year": 2011,
+    "songs": [
+        {
+            "name": "Hitchcock",
+            "lenght": 250,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/01 Hitchcock.mp3"
+        },
+        {
+            "name": "Disappointment",
+            "lenght": 126,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/02 Disappointment.mp3"
+        },
+        {
+            "name": "Борец",
+            "lenght": 156,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/03 Borec.mp3"
+        },
+        {
+            "name": "Denial",
+            "lenght": 235,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/04 Denial.mp3"
+        },
+        {
+            "name": "Short Bullets",
+            "lenght": 186,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/05 Short Bullets.mp3"
+        },
+        {
+            "name": "Deja Vu",
+            "lenght": 215,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/06 Deja Vu.mp3"
+        },
+        {
+            "name": "Ilijah",
+            "lenght": 319,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/07 Ilijah.mp3"
+        },
+        {
+            "name": "Paradox",
+            "lenght": 199,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/08 Paradox.mp3"
+        },
+        {
+            "name": "Weak",
+            "lenght": 186,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/09 Weak.mp3"
+        },
+        {
+            "name": "The End",
+            "lenght": 250,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Against Them All/2011 - First Born/10 The End.mp3"
+        }
+    ]
+}
