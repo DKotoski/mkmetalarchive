@@ -1,0 +1,14 @@
+{
+    "id": "ata",
+    "name": "Against them All",
+    "location": "Bitola",
+    "genre": "metalcore/melodeth",
+    "bio": "a bio",
+    "status": "status",
+    "albums": [
+        {
+            "id": "ata-fb",
+            "linkToData": "bands/Against Them All/2011 - First Born/data.json"
+        }
+    ]
+}

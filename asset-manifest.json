@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mkmetalarchive/static/css/main.d1b05096.chunk.css",
-    "main.js": "/mkmetalarchive/static/js/main.f52fdd53.chunk.js",
-    "main.js.map": "/mkmetalarchive/static/js/main.f52fdd53.chunk.js.map",
+    "main.js": "/mkmetalarchive/static/js/main.0be1e5bb.chunk.js",
+    "main.js.map": "/mkmetalarchive/static/js/main.0be1e5bb.chunk.js.map",
     "runtime-main.js": "/mkmetalarchive/static/js/runtime-main.a746e3d3.js",
     "runtime-main.js.map": "/mkmetalarchive/static/js/runtime-main.a746e3d3.js.map",
     "static/css/2.440ac8e8.chunk.css": "/mkmetalarchive/static/css/2.440ac8e8.chunk.css",
     "static/js/2.e23b8d72.chunk.js": "/mkmetalarchive/static/js/2.e23b8d72.chunk.js",
     "static/js/2.e23b8d72.chunk.js.map": "/mkmetalarchive/static/js/2.e23b8d72.chunk.js.map",
     "index.html": "/mkmetalarchive/index.html",
-    "precache-manifest.98f2dc7b16eb1597711456421ab9f42f.js": "/mkmetalarchive/precache-manifest.98f2dc7b16eb1597711456421ab9f42f.js",
+    "precache-manifest.5edb9b62bab49d8f7ded3cd5fdd60dbe.js": "/mkmetalarchive/precache-manifest.5edb9b62bab49d8f7ded3cd5fdd60dbe.js",
     "service-worker.js": "/mkmetalarchive/service-worker.js",
     "static/css/2.440ac8e8.chunk.css.map": "/mkmetalarchive/static/css/2.440ac8e8.chunk.css.map",
     "static/css/main.d1b05096.chunk.css.map": "/mkmetalarchive/static/css/main.d1b05096.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.440ac8e8.chunk.css",
     "static/js/2.e23b8d72.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.f52fdd53.chunk.js"
+    "static/js/main.0be1e5bb.chunk.js"
   ]
 }
