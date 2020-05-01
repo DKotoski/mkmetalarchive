@@ -14,7 +14,7 @@ function App() {
   return (
     <HashRouter>
       <Paper>
-        <Box>
+        <Box pb="120px">
           <Typography align="center" variant="h2">MK Metal Archive</Typography>
           <Route exact path={ROUTES.BAND_LIST} component={MainPageContainer} />
           <Route exact path={ROUTES.BAND_PAGE} component={BandPageContainer} />
