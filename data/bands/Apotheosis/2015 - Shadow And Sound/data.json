@@ -1,0 +1,63 @@
+{
+    "id": "ap-sas",
+    "name": "Shadow and sound",
+    "describtion": "",
+    "length": 2440,
+    "year": 2015,
+    "songs": [
+        {
+            "name": "Hiraeth",
+            "lenght": 137,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/01 Hiraeth.mp3"
+        },
+        {
+            "name": "Shadow Gallery",
+            "lenght": 245,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/02 Shadow Gallery.mp3"
+        },
+        {
+            "name": "Contemplation of a Lost Dream",
+            "lenght": 232,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/03 Contemplation of a Lost Dream.mp3"
+        },
+        {
+            "name": "Dark Corners of my Reality",
+            "lenght": 283,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/04 Dark Corners of my Reaility.mp3"
+        },
+        {
+            "name": "Archetype",
+            "lenght": 441,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/05 Archetype.mp3"
+        },
+        {
+            "name": "Betrayal",
+            "lenght": 231,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/06 Betrayal.mp3"
+        },
+        {
+            "name": "Warsong",
+            "lenght": 342,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/07 Warsong.mp3"
+        },
+        {
+            "name": "The Strong Divide",
+            "lenght": 290,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/08 The Strong Divide.mp3"
+        },
+        {
+            "name": "Blackened Sun",
+            "lenght": 239,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Apotheosis/2015 - Shadow And Sound/09 Blackened Sun.mp3"
+        }
+    ]
+}
