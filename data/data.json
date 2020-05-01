@@ -10,5 +10,9 @@
     {
         "id": "ata",
         "linkToData": "bands/Against Them All/data.json"
+    },
+    {
+        "id": "am",
+        "linkToData": "bands/Ambroz/data.json"
     }
 ]

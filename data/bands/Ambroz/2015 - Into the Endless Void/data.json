@@ -1,0 +1,57 @@
+{
+    "id": "am-iev",
+    "name": "Into the Endless Void",
+    "describtion": "",
+    "length": 2104,
+    "year": 2015,
+    "songs": [
+        {
+            "name": "The Path of Sins",
+            "lenght": 209,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/1 The Path of Sins.mp3"
+        },
+        {
+            "name": "Eternal Persecution",
+            "lenght": 286,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/2 Eternal Persecution.mp3"
+        },
+        {
+            "name": "Kingdom of Chaos",
+            "lenght": 305,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/3 Kingdom of Chaos.mp3"
+        },
+        {
+            "name": "Into Endless Voids",
+            "lenght": 249,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/4 Into Endless Voids.mp3"
+        },
+        {
+            "name": "Torture",
+            "lenght": 256,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/5 Torture.mp3"
+        },
+        {
+            "name": "The Rising of Ambroz",
+            "lenght": 204,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/6 The Rising of Ambroz.mp3"
+        },
+        {
+            "name": "She, The Destroyer",
+            "lenght": 229,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/7 She, The Destroyer.mp3"
+        },
+        {
+            "name": "Prophecy",
+            "lenght": 342,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Ambroz/2015 - Into the Endless Void/8 Prophecy.mp3"
+        }
+    ]
+}
