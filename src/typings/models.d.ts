@@ -6,6 +6,7 @@ declare module Models {
 
     export interface Band extends DataLink {
         name: string;
+        logo: string;
         location: string;
         status: string;
         genre: string;
