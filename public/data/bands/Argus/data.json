@@ -1,0 +1,23 @@
+{
+    "id": "ar",
+    "logo": "/mkmetalarchive/data/bands/Argus/logo.jpg",
+    "name": "Argus",
+    "location": "Skopje",
+    "genre": "heavy metal",
+    "bio": "a bio",
+    "status": "status",
+    "albums": [
+        {
+            "id": "sv-zb",
+            "linkToData": "bands/Argus/1989 - Свети зборови/data.json"
+        },
+        {
+            "id": "eyes",
+            "linkToData": "bands/Argus/1993 - Eyes of Argus/data.json"
+        },
+        {
+            "id": "voice",
+            "linkToData": "bands/Argus/1995 - The Voice of the Dark/data.json"
+        }
+    ]
+}

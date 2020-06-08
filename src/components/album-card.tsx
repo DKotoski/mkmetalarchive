@@ -6,6 +6,7 @@ import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import { generatePath } from 'react-router';
 import { ROUTES } from '../lib/consts';
 import { Link as RouterLink } from 'react-router-dom';
+import { StylableRouterLink } from '../styled/styled-router-link';
 
 export interface AlbumCardProps {
     bandId: string;
@@ -48,7 +49,7 @@ const AlbumCard = (props: AlbumCardProps) => {
     return (
         <Card>
             <CardHeader
-                component={RouterLink}
+                component={StylableRouterLink}
                 to={url}
                 avatar={props.cover ? <Avatar variant="square" style={{ height: "120px", width: "120px" }} src={props.cover} /> : null}
                 title={props.name}

@@ -1,0 +1,58 @@
+{
+    "id": "voice",
+    "name": "The Voice of the Dark",
+    "cover": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/cover.jpg",
+    "describtion": "",
+    "length": 2429,
+    "year": 1995,
+    "songs": [
+        {
+            "name": "Sinners",
+            "lenght": 254,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/1. Sinners.mp3"
+        },
+        {
+            "name": "We Are Free",
+            "lenght": 399,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/2. We Are Free.mp3"
+        },
+        {
+            "name": "Shadow",
+            "lenght": 311,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/3. Shadow.mp3"
+        },
+        {
+            "name": "The Golden Eagle",
+            "lenght": 280,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/4. The Golden Eagle.mp3"
+        },
+        {
+            "name": "The Voice of the Dark",
+            "lenght": 453,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/5. The Voice of the Dark.mp3"
+        },
+        {
+            "name": "My Land is Burning",
+            "lenght": 240,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/6. My Land is Burning.mp3"
+        },
+        {
+            "name": "Guliver",
+            "lenght": 345,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/7. Guliver.mp3"
+        },
+        {
+            "name": "X",
+            "lenght": 299,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1995 - The Voice of the Dark/8. X.mp3"
+        }
+    ]
+}

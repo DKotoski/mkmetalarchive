@@ -14,5 +14,9 @@
     {
         "id": "ap",
         "linkToData": "bands/Apotheosis/data.json"
+    },
+    {
+        "id": "ar",
+        "linkToData": "bands/Argus/data.json"
     }
 ]

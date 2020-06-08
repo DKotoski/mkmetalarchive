@@ -1,0 +1,58 @@
+{
+    "id": "sv-zb",
+    "name": "Свети зборови",
+    "cover": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/cover.jpg",
+    "describtion": "",
+    "length": 1784,
+    "year": 1989,
+    "songs": [
+        {
+            "name": "Свети зборови",
+            "lenght": 208,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/1. Свети зборови.mp3"
+        },
+        {
+            "name": "1999",
+            "lenght": 226,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/2. 1999.mp3"
+        },
+        {
+            "name": "Империја на темниот рај",
+            "lenght": 191,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/3. Империја на темниот рај.mp3"
+        },
+        {
+            "name": "Византија",
+            "lenght": 63,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/4. Византија.mp3"
+        },
+        {
+            "name": "Демон",
+            "lenght": 364,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/5. Демон.mp3"
+        },
+        {
+            "name": "Одмазда",
+            "lenght": 241,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/6. Одмазда.mp3"
+        },
+        {
+            "name": "Животот е се",
+            "lenght": 176,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/7. Животот е се.mp3"
+        },
+        {
+            "name": "Аргус е роден",
+            "lenght": 315,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1989 - Свети зборови/8. Аргус е роден.mp3"
+        }
+    ]
+}

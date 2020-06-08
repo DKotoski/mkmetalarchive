@@ -1,0 +1,58 @@
+{
+    "id": "eyes",
+    "name": "Eyes of Argus",
+    "cover": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/cover.jpg",
+    "describtion": "",
+    "length": 2429,
+    "year": 1993,
+    "songs": [
+        {
+            "name": "Argus is Born",
+            "lenght": 315,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/1. Argus is Born.mp3"
+        },
+        {
+            "name": "Demon",
+            "lenght": 320,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/2. Demon.mp3"
+        },
+        {
+            "name": "Prebond",
+            "lenght": 335,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/3. Prebond.mp3"
+        },
+        {
+            "name": "1999",
+            "lenght": 226,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/4. 1999.mp3"
+        },
+        {
+            "name": "Empire of Dark Paradise",
+            "lenght": 319,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/5. Empire of Dark Paradise.mp3"
+        },
+        {
+            "name": "Holy Words",
+            "lenght": 223,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/6. Holy Words.mp3"
+        },
+        {
+            "name": "Black Maraby",
+            "lenght": 376,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/7. Black Maraby.mp3"
+        },
+        {
+            "name": "Vengeance",
+            "lenght": 315,
+            "lyrics": "",
+            "playUrl": "/mkmetalarchive/data/bands/Argus/1993 - Eyes of Argus/8. Vengeance.mp3"
+        }
+    ]
+}
